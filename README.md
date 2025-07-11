@@ -6,7 +6,7 @@ Private Homebrew tap for the Nexio CLI tool.
 
 ```bash
 # Add the tap
-brew tap yourusername/nexio https://github.com/yourusername/homebrew-nexio
+brew tap nexioxyz/nexio https://github.com/nexioxyz/homebrew-nexio
 
 # Install nexio
 brew install nexio
