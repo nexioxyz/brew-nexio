@@ -9,8 +9,8 @@ class Nexio < Formula
       sha256 "1b0a6269e91d3adddd78c2ffaa3975f79d3230d0f4679ea51bc0f62d032ef697"
     end
     if Hardware::CPU.intel?
-      url "https://raw.githubusercontent.com/nexioxyz/homebrew-nexio/main/nexio-macos-x86_64.tar.gz"
-      sha256 "REPLACE_WITH_ACTUAL_SHA256"
+      url "https://github.com/nexioxyz/homebrew-nexio/releases/download/testnet/nexio-macos-arm64.tar.gz"
+      sha256 "1b0a6269e91d3adddd78c2ffaa3975f79d3230d0f4679ea51bc0f62d032ef697"
     end
   end
 
