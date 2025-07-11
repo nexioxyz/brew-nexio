@@ -6,11 +6,11 @@ class Nexio < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/nexioxyz/homebrew-nexio/releases/download/testnet/nexio-macos-arm64.tar.gz"
-      sha256 "1b0a6269e91d3adddd78c2ffaa3975f79d3230d0f4679ea51bc0f62d032ef697"
+      sha256 "f86b39df3c3d77a04757aacf66a82b0215a4d4a1745df47932fe04ecd0df1e8c"
     end
     if Hardware::CPU.intel?
       url "https://github.com/nexioxyz/homebrew-nexio/releases/download/testnet/nexio-macos-arm64.tar.gz"
-      sha256 "1b0a6269e91d3adddd78c2ffaa3975f79d3230d0f4679ea51bc0f62d032ef697"
+      sha256 "f86b39df3c3d77a04757aacf66a82b0215a4d4a1745df47932fe04ecd0df1e8c"
     end
   end
 
